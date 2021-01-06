@@ -15,7 +15,7 @@ class App : Application() {
     override fun start(stage: Stage) {
         val root = FXMLLoader.load<Parent>(this.javaClass.classLoader.getResource("MainView.fxml"));
         val scene = Scene(root, 500.0, 600.0)
-        stage.title = "FXML Welcome"
+        stage.title = "NordUI"
         stage.scene = scene
         stage.show()
     }
